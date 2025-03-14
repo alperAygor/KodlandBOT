@@ -1,5 +1,3 @@
-Başlamadan Önce Discord otomatik olarak Discord Botunun Tokenını algılıyor ve tokenı iptal ediyor çünkü public paylaştığım için 
-o yüzden Tokenı almak için bana doğrudan ulaşın ben kendim test ettim zaten çalışıyor bir problem yok
 
 Çalıştırmadan önce "pip install -r requirements.txt" komutunu terminalde çalıştırın
 botun çalışması için "python bot.py" komutunu terminalde çalıştırın
