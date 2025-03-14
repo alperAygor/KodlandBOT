@@ -9,10 +9,11 @@ cursor=db.GetCursor()
 
 #Token Reading
 
-token=""
-with open("token.txt", "r") as token_file:
-    token = token_file.read().strip()  
-
+token="MTM1MDA4NjY1ODMyNTg3MjczMA.GrdkTq.HcI9VzqVZGR09cQ12_0BXsXJLqqbkAdyBA1-Ao"
+#Discord Tokenı algıladı ve kendi kendine iptal etti 
+#normalde token token.txt dosyasından okunuyordu kodu değiştirdim
+#SHA256 gibi bir algoritma kullanmak istemedim 
+#eğer çalışmazsa muhtemelen token auth hatasından dolayıdır
 
 intents = discord.Intents.default()
 intents.message_content = True
