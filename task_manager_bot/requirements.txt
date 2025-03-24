@@ -1,6 +1,0 @@
-discord.py
-pytest
-pytest-asyncio
-requests
-aiohttp
-cryptography
